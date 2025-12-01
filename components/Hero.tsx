@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-100 via-slate-50 to-white opacity-70"></div>
       
       <div className="max-w-5xl mx-auto px-6 text-center">
-        <div className="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 rounded-full border border-blue-100">
+        <div className="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider text-blue-600 bg-blue-50 rounded-full border border-blue-100">
           Accepted to AAAI 2026 Workshop LaMAS
         </div>
         
