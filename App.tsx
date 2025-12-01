@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import Abstract from './components/Abstract';
 import Methodology from './components/Methodology';
-import QualitativeExamples from './components/QualitativeExamples';
+// import QualitativeExamples from './components/QualitativeExamples';
 import Results from './components/Results';
 import Bibtex from './components/Bibtex';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <Hero />
       <Abstract />
       <Methodology />
-      <QualitativeExamples />
+      {/* <QualitativeExamples /> */}
       <Results />
       <Bibtex />
       <Footer />
