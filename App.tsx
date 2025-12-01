@@ -13,6 +13,7 @@ const App: React.FC = () => {
       <Hero />
       <Abstract />
       <Methodology />
+      <QualitativeExamples />
       <Results />
       <Bibtex />
       <Footer />
