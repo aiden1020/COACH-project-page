@@ -31,10 +31,15 @@ const Hero: React.FC = () => {
         <p className="text-slate-500 mb-10">{AFFILIATION}</p>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <button className="flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+          <a
+            href="https://arxiv.org/abs/2512.01853"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+          >
             <FileText size={18} />
             <span>Paper</span>
-          </button>
+          </a>
           <button className="flex items-center gap-2 px-6 py-3 bg-white text-slate-900 border border-slate-200 rounded-lg hover:border-slate-400 transition-all shadow-sm hover:shadow-md">
             <Github size={18} />
             <span>Code (Coming Soon)</span>

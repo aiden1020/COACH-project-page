@@ -23,11 +23,14 @@ export const CHART_DATA_GROUNDING: ChartDataPoint[] = [
   { name: 'F1-Score (%)', COACH: 84.77, Gemini: 24.82 },
 ];
 
-export const BIBTEX = `@article{wong2026coach,
-  title={COACH: Collaborative Agents for Contextual Highlighting - A Multi-Agent Framework for Sports Video Analysis},
-  author={Wong, Tsz-To and Huang, Ching-Chun and Shuai, Hong-Han},
-  journal={Association for the Advancement of Artificial Intelligence (AAAI)},
-  year={2026}
+export const BIBTEX = `@misc{wong2025coachcollaborativeagentscontextual,
+      title={COACH: Collaborative Agents for Contextual Highlighting - A Multi-Agent Framework for Sports Video Analysis}, 
+      author={Tsz-To Wong and Ching-Chun Huang and Hong-Han Shuai},
+      year={2025},
+      eprint={2512.01853},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.01853}, 
 }`;
 
 export const QA_SAMPLES: QASample[] = [
